@@ -1,0 +1,34 @@
+site_name: Nations Registry
+site_description: Official national records, government information, geography, culture, and laws.
+site_url: https://YOURUSERNAME.github.io/nations-registry/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+extra_css:
+  - assets/extra.css
+
+nav:
+  - Home: index.md
+  - Ardennes:
+      - Overview: ardennes/index.md
+      - Government: ardennes/government.md
+      - Geography: ardennes/geography.md
+      - Culture: ardennes/culture.md
+      - Laws:
+          - Legal Code: ardennes/laws/index.md
+          - Constitutional & Government: ardennes/laws/government.md
+          - Civil & Commercial: ardennes/laws/civil-commercial.md
+          - Agriculture & Animal Welfare: ardennes/laws/agriculture.md
+          - Environment & Protected Lands: ardennes/laws/environment.md
+  - Flux Nation:
+      - Overview: flux/index.md
+      - Government: flux/government.md
+      - Geography: flux/geography.md
+      - Culture: flux/culture.md
+      - Laws: flux/laws/index.md
