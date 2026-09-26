@@ -1,5 +1,7 @@
 # Flux Nation
 
+<img class="nation-flag" src="../assets/flags/flux.png" alt="Flag of Flux Nation">
+
 **Official Name:** Flux Nation  
 **Demonym:** _To be added_  
 **Government:** _To be added_  

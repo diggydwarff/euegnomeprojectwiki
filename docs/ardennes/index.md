@@ -1,5 +1,7 @@
 # Holy Commonwealth of Ardennes
 
+<img class="nation-flag" src="../assets/flags/ardennes.png" alt="Flag of the Holy Commonwealth of Ardennes">
+
 **Demonym:** Ardennian  
 **Government:** Constitutional Religious Commonwealth  
 **Head of State:** High Chancellor  

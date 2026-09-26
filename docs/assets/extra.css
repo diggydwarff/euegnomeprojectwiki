@@ -1,3 +1,54 @@
 .md-header { box-shadow: none; }
 .md-typeset h1 { font-weight: 700; }
 .nation-meta { opacity: 0.85; }
+
+.nation-flag {
+  display: block;
+  width: min(100%, 520px);
+  max-height: 300px;
+  object-fit: contain;
+  margin: 0 0 1.5rem 0;
+  border-radius: 0.3rem;
+}
+
+.nation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+.md-typeset .nation-card {
+  display: block;
+  overflow: hidden;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  color: inherit;
+  background: var(--md-default-bg-color);
+  text-decoration: none;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.md-typeset .nation-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.35rem 1rem rgba(0, 0, 0, 0.12);
+}
+
+.nation-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.nation-card-body {
+  padding: 0.9rem 1rem 1rem;
+}
+
+.md-typeset .nation-card h3 {
+  margin: 0 0 0.45rem;
+}
+
+.md-typeset .nation-card p {
+  margin: 0;
+}
